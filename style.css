@@ -205,3 +205,26 @@ main p {
         padding: 14px 24px;
     }
 }
+
+/* Video centrato e adattabile allo schermo */
+.video-container {
+    width: 100%;
+    max-width: 900px;
+    min-height: 200px;
+    margin: 24px auto 0;
+    aspect-ratio: 16 / 9;
+    background-color: #000000;
+}
+
+.video-container iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    border: 0;
+}
+
+/* Spazio tra la gallery e la sezione video */
+.video-section {
+    padding-top: 40px;
+}
